@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-5$3aw-^%@b-f&w@rglxgvof0ip7knr4fofv+lx!qpzjj!!q2vn
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-fwhiterabbi-myanimeblog-ehsgj6b1umi.ws-eu105.gitpod.io']
+ALLOWED_HOSTS = ['8000-fwhiterabbi-myanimeblog-syf0636o4pf.ws-eu105.gitpod.io']
 
 
 CSRF_TRUSTED_ORIGINS = ['https://8000-fwhiterabbi-myanimeblog-ehsgj6b1umi.ws-eu105.gitpod.io']
