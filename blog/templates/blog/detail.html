@@ -1,0 +1,24 @@
+{% extends 'myanimeblog/base.html' %}
+
+{% block title %}{{ post.title }} | {% endblock %}
+
+{% block content %}
+<section class="hero">
+    <div class="hero-body">
+        <div class="container">
+            <section class="section">
+                <div class="columns">
+                    <div class="column is-8 is-offset-2">
+                        <div class="content is-medium">
+                                <h2 class="subtitle is-4">{{ post.created_at|timesince }}</h2>
+                                    <h1 class="title">{{ post.title }}</h1>
+                                    <p><strong>{{ post.intro }}</strong></p>
+                                    <p>{{ post.body }}</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</section>
+{% endblock %}
