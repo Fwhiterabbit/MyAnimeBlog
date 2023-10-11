@@ -25,10 +25,10 @@ SECRET_KEY = 'django-insecure-5$3aw-^%@b-f&w@rglxgvof0ip7knr4fofv+lx!qpzjj!!q2vn
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-fwhiterabbi-myanimeblog-gp2ozqi0fox.ws-eu105.gitpod.io']
+ALLOWED_HOSTS = ['8000-fwhiterabbi-myanimeblog-xjsi8peij1c.ws-eu105.gitpod.io']
 
 
-CSRF_TRUSTED_ORIGINS = ['https://8000-fwhiterabbi-myanimeblog-gp2ozqi0fox.ws-eu105.gitpod.io']
+CSRF_TRUSTED_ORIGINS = ['https://8000-fwhiterabbi-myanimeblog-xjsi8peij1c.ws-eu105.gitpod.io']
 
 
 # Application definition

@@ -14,6 +14,8 @@
                                     <h1 class="title">{{ post.title }}</h1>
                                     <p><strong>{{ post.intro }}</strong></p>
                                     <p>{{ post.body }}</p>
+
+                                    <p><small> Category: <a href="{% url 'category_detail' post.category.slug %}"> {{ post.category }}</a></small></p>
                                 
                                     <hr>
 
@@ -32,7 +34,7 @@
                                     </form>
 
                                     {% for comment in post.comments.all %}
-                                        <article class="media">
+                                        <article class="media box">
                                             <div class="media-content">
                                                 <strong>{{ comment.name }}</strong> <small>{{ comment.created_at|timesince }} ago</small><br>
                                                 {{ comment.body }}
